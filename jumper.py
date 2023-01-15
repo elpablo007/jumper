@@ -79,7 +79,7 @@ while run:
             walkCount = 0
     else:
         if jumpCount >= -10:
-            y -= (jumpCount * abs(jumpCount)) * 0.2
+            y -= (jumpCount * abs(jumpCount)) * 0.5
             jumpCount -= 1
         else: 
             jumpCount = 10
